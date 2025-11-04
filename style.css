@@ -8,7 +8,7 @@
 body { 
     background: #000;
     color: #fff;
-    transition: 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s;
 }
 
 /* Header */
@@ -30,14 +30,15 @@ header {
 .logo span {
     color: #e63946;
 }
-nav ul, nav ul li{
+nav ul, nav ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
     display: flex;
-
 }
-
 nav ul li {
     margin: 0 15px;
 } 
@@ -45,7 +46,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size:  16px;
-    transition: 0.30;
+    transition: 0.3s;
 }
 
 nav ul li a:hover {
@@ -82,14 +83,14 @@ nav ul li a:hover {
     color: #e63946;
 }
 
-.content pp {
-    margin-content: 20px;
+.content p {
+    margin-bootom: 20px;
     line-height: 1.6;
     /* opacity: 0; */
     animation: fadeIn Is forwords 0.6s;
 }
 
-.bptton {
+.botton {
     margin-bottom: 20px;
 } 
 
@@ -196,10 +197,16 @@ ul {
         text-align: centre;   
  } 
  .content {
-    max-width: 1000x;
+    max-width: 100px;
  }
  .band-img img {
-    max-width: 400;
+    max-width: 400px;
+    margin-top: 20px;
  }
+}
 
+@media ( min-width:1024px) {
+    .band-img img {
+        max-width: 600px;
+    }
 }
