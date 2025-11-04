@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 body { 
     background: #000;
     color: #fff;
-    transition: background 0.3s, color 0.3s;
+    transition: 0.3s, color 0.3s;
 }
 
 /* Header */
@@ -55,7 +55,7 @@ nav ul li a:hover {
 
 .menu-toggle {
    /* display: none; */
-   font-size: #26px;
+   font-size: 26px;
    cursor: pointer;
    color: white;
 }
