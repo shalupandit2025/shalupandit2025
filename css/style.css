@@ -42,11 +42,10 @@ nav ul, nav ul li {
 
 nav ul {
     display: flex;
-
 }
 
 nav ul li {
-    margin: 0.15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -98,7 +97,7 @@ nav ul li a:hover {
     animation: fadeIn Is forward 0.6s;
 }
 
-.buttons {
+.buttons{
     margin-bottom: 20px;
 }
 
