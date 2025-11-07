@@ -3,20 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-} 
+}
 body {
     background: #000;
     color: #fff;
-    transition: backgrounnd 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s;
 }
 
-/* header */
+/* header  */
 header {
     display: flex;
     justify-content: space-between;
     background: #111;
     padding: 20px 50px;
-    align-items: center;
+    align-items: centre;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -26,6 +26,7 @@ header {
     font-weight: bold;
     color: #fff;
 }
+
 .logo span {
     color: #e63946;
 }
@@ -34,29 +35,68 @@ nav ul, nav ul li {
     margin: 0;
     padding: 0;
 }
+
 nav ul {
     display: flex;
 }
 nav ul li {
-    margin: 0 15px;
+    margin: 0 15px; 
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.3s;
 }
 nav ul li a:hover {
     color: #e63946;
 }
 .menu-toggle {
-    display: none;
-    font-size: 26px;
+    /* display:none; */
+    font-size: 25px;
     cursor: pointer;
     color: white;
-}
-/* Hero Section  */
+} 
+/* Hero section  */
 .hero {
     padding: 150px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
     max-width: 50%;
 }
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    /* opacity: 0;  */
+    animation: fadeIn Is forwards 0.3s;
+}
+
+.bottons {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background: #e63946;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+}
+
+
 .band-img img {
     max-width: 400px;
+    width: 100%;
+    height: auto;
 }
