@@ -45,7 +45,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 16px;
     transition: 0.3s;
 }
 nav ul li a:hover {
@@ -53,8 +53,8 @@ nav ul li a:hover {
 }
 
 .menu-toggle {
-    /* display:none; */
-    font-size: 25px;
+    display:none;
+    font-size: 26px;
     cursor: pointer;
     color: white;
 } 
@@ -77,6 +77,15 @@ nav ul li a:hover {
     /* opacity: 0;  */
     animation: fadeIn Is forwards 0.3s;
 }
+.content h1 span {
+    color: #e63946;
+}
+ .content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    /* opacity: 0;  */
+    animation: fadeIn Is forwards 0;
+ }
 
 .bottons {
     margin-bottom: 20px;
@@ -85,6 +94,7 @@ nav ul li a:hover {
 .btn-primary {
     background: #e63946;
     padding: 10px 20px;
+    border-radius: 25px;
     border: none;
     color: #fff;
     margin-right: 10px;
@@ -94,6 +104,22 @@ nav ul li a:hover {
 
 .btn-primary:hover {
     transform: scale(1.1);
+}
+.btn-srcondary {
+    background: #444;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.btn-srcondary:hover {
+    transform: scale(1.1);
+}
+.social a {
+    color: #bbb;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
 .band-img img {
@@ -124,7 +150,7 @@ ul {
      to {opacity:1; } 
 }
 @keyframe flaot {
-    0%, 1005 {transform: translateY(0px); }
+    0%, 1005 { transform: translateY(0px); }
     50% { transform: translateY(-15px); }
 }
 
@@ -133,9 +159,9 @@ ul {
 }
 
 @keyframe bounce {
-    0%, 20% 50%, 80%, 100% {tranform: translatyeY(0);}
-    40% { transform: translateY(-8px);}
-    60% { transform: translatrY(-4px);}
+    0%, 20% 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-8px); }
+    60% { transform: translat3Y(-4px); }
 }
 
 /* Responsive  */
