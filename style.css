@@ -54,7 +54,76 @@ nav ul li a:hover{
     cursor: pointer;
     color: white;
 }
+
 /* Hero Section */
 .hero {
-    padding: 150px, 50px, 50px;
+    padding: 150px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 28px;
+    /* display: 0;  */
+    animation: fadeIn Is forwards 0.3s;
+}
+
+.content h1 span {
+    color: #e63946;
+}
+
+.content p {
+   margin-bottom: 20px;
+   line-height: 1.6;
+   /* opacity: 0;  */
+   animation: fadeIn Is forwards 0.6s;
+}
+bottons {
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background: #e63946;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ .btn-primary:hover {
+    transform: scale(1.1);
+}
+ .btn-srcomdary {
+    background: #444;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-srcondary:hover {
+    transform: scale(1.1);
+}
+
+.social a {
+    color: #bbb;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.band-img img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite ;
+}
+
