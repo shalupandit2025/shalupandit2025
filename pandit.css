@@ -45,22 +45,28 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 26px;
+    font-size: 16px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
     color: #e63946;
 }
+.menu-toogle {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;    
+    color: white;
+}
 
 /* Hero Section  */
 .hero {
-    padding: 150px 5px 50px;
-    justify-content: space-between;
+    padding: 150px 50px 50px;
     background: #000;
-    
+    display: flex;
+    align-items: center;
 }
 
 .content {
@@ -68,8 +74,8 @@ nav ul li a:hover {
 }
 
 .content h1 {
-    font-size: 26px;
-    color: #000;
+    font-size: 48px;
+    margin-bottom: 20px;    
     /* opacity: 0; */
     animation: fadeIn 1s forwards 0.3s;
 }
@@ -79,10 +85,10 @@ nav ul li a:hover {
 }
 
 .content p {
-    font-size: 16px;
+    margin-bottom: 2px;    
     line-height: 1.6;
     opacity: 0;
-    animation: float 1s forwards 0.6s;
+    animation: fadeIn 1s forwards 0.6s;
 }
 
 .buttons {
@@ -90,13 +96,12 @@ nav ul li a:hover {
 }
 
 .btn-primary {
-    display: flex;
+    background: #e63946;
     padding: 10px 20px;
     border-radius: 25px;
     border: none;
     color: #fff;
-    align-items: center;
-    position: fixed;
+    margin-right: 20px;    
     cursor: pointer;
     transition: 0.3s;
 }
@@ -106,10 +111,10 @@ nav ul li a:hover {
 }
 
 .btn-secondary {
-    display: flex;
+    background: #444;
     padding: 10px 20px;
     border-radius: 25px;
-    color: #444;
+    color: #fff;
     text-decoration: none;    
     transition: 0.6s;
 }
@@ -119,9 +124,9 @@ nav ul li a:hover {
 }
 
 .social a {
-    color: #111;
-    padding-left: 0;
-    margin-bottom: 0;
+    color: #bbb;
+    text-decoration: none;    
+    margin-right: 10px;
 }
 
 .band-img img {
@@ -129,7 +134,7 @@ nav ul li a:hover {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    animation: fadeIn 3s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
 }
 /* Section  */
 .section {
@@ -138,6 +143,7 @@ nav ul li a:hover {
 }
 
 .section h2 {
+    margin-bottom: 20px;
     color: #e63946;
 }
 
@@ -150,7 +156,7 @@ ul {
 /* Animateion  */
 
 @keyframes fadeIn {
-    to { opacity: 0; }
+    to { opacity: 1; }
 }
 
 @keyframes float {
@@ -174,7 +180,7 @@ ul {
         /* display: none;  */
         flex-direction: column;
         position: absolute;
-        color: #111;
+        background: #111;
         top: 60px;
         right: 0;
         width: 200px;
@@ -195,9 +201,7 @@ ul {
      .content {
         max-width: 100%;
      }
-     .social {
-        margin-bottom: 20px;
-     }
+     
 
      .band-img img {
         max-width: 400px;
