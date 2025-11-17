@@ -54,7 +54,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #e63946;
 }
-.menu-toogle {
+.menu-toggle {
     display: none;
     font-size: 26px;
     cursor: pointer;    
@@ -85,9 +85,9 @@ nav ul li a:hover {
 }
 
 .content p {
-    margin-bottom: 2px;    
+    margin-bottom: 20px;    
     line-height: 1.6;
-    opacity: 0;
+    /* opacity: 0; */
     animation: fadeIn 1s forwards 0.6s;
 }
 
@@ -134,7 +134,7 @@ nav ul li a:hover {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    animation: float 3s ease-in-out infinite;
+    animation: fadeIn 3s ease-in-out infinite;
 }
 /* Section  */
 .section {
