@@ -3,5 +3,12 @@
     height: 0;
     border-bottom: 100px  solid blue;
     border-right: 50px solid transparent;
-    border-left: 50px solid transparen;
+    border-left: 50px solid transparent;
+}
+h1{
+    display: flex;
+    font-size: 60px;
+    /* background-color: pink; */
+    /* width: 100px; */
+
 }
