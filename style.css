@@ -1,70 +1,19 @@
-.shape1 {
-    width: 250px;
-    height: 150px;
-    background-color: rgb(0, 8, 255);
-    border-radius: 5px ;
-    /* text-decoration-color: #fff; */
+body {
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     margin: 50px;
-
 }
-.shape2 {
-    width: 250px;
-    height: 150px;
-    background-color: rgb(231, 208, 253);
-    border-radius: 5px ;
-    position: relative;
-    top: -120px;
-    margin: 80px;
-    z-index: 1;
-
-    /* text-decoration-color: #fff; */
-     /* margin: 50px; */
-
-}
-.shape3{
-    width: 250px;
-    height: 150px;
-    background-color: rgb(55, 128, 0);
-    border-radius: 5px ;
-    position: relative;
-    top: -260px;
-    margin: 110px;
-    z-index: 2;
-    /* text-decoration-color: #fff; */
-    
-}
-.shape4{
-    width: 250px;
-    height: 150px;
-    background-color: yellow;
-    border-radius: 5px ;
-    position: relative;
-    top: -440px;
-    margin: 140px;
-    z-index: 3;
-    /* text-decoration-color: #fff; */
-   
-}
-.shape5 {
-    width: 250px;
-    height: 150px;
-    background-color: rgb(98, 0, 128);
-    border-radius: 5px ;
-    position: relative;
-    top: -650px;
-    margin: 170px;
-    z-index: 4;
-    /* text-decoration-color: #fff; */
+.main-background {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
 }
 
-.shape6 {
-     width: 250px;
-    height: 150px;
-    background-color: lightcoral;
-    border-radius: 5px ;
-    position: relative;
-    top: -900px;
-    margin: 200px;
-    z-index: 5;
-    /* text-decoration-color: #fff; */
+.continous {
+        width: 400px;
+        height: 50px;
+        background-color: blue;
+        text-align: center;    
 }
