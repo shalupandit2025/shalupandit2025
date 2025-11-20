@@ -11,9 +11,17 @@ body {
     background-color: antiquewhite;
 }
 
+.new-urser-register {
+      text-align: center;
+}
+
+
 .continous {
         width: 400px;
         height: 50px;
         background-color: blue;
-        text-align: center;    
+        margin-top: 50px;
+        text-align: center;   
+        border-radius: 5px;
 }
+
