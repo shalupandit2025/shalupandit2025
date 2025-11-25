@@ -1,16 +1,16 @@
-/* --- Page Setup --- */
+/* --- Page Setup ---
 body {
     background-color: #d0d0d0;
     font-family: Arial, sans-serif;
 
     /* Center the login card */
-    display: flex;
+    /* display: flex;
     justify-content: center;
     padding: 50px;
 }
 
 /* --- Login Card Box --- */
-.card {
+/* .card {
     width: 400px;
     height: 400px;
     background-color: white;    
@@ -19,38 +19,38 @@ body {
     border: #666 2px;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */ */
 
     /* Text (Login, Get Started) should stay left */
     align-items: flex-start;
-}
+/* } */
 
-.card h1{
-    margin: 0;         /* removes default spacing */
-    padding: 0;                                                                                                                        
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* .card h1{ */
+    /* margin: 0;         removes default spacing */
+    /* padding: 0;                                                                                                                         */
+    /* font-family: Arial, Helvetica, sans-serif; */
+/* } */
 
-.card h4 {
-    margin: 0;         /* removes default spacing */
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* .card h4 { */
+    /* margin: 0;         removes default spacing */
+    /* padding: 0; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+/* } */
 
 /* --- Input Field Section --- */
-.input-area {
-    width: 100%;
+/* .input-area {
+    width: 100%; */
 
     /* Center the inputs horizontally */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
 
     margin-top: 40px;
-}
+} */
 
 /* --- Input Styling --- */
-.rounded-input {
+/* .rounded-input {
     width: 80%;
     padding: 14px;
     margin-top: 10px;
@@ -64,17 +64,17 @@ body {
 
 .rounded-input::placeholder {
     color: #999;
-}
+} */
 
 /* When user clicks in input */
-.rounded-input:focus {
+/* .rounded-input:focus {
     border-color: #666;
     box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
     outline: none;
-}
+} */
 
 /* --- Forgot Password --- */
-.forgot {
+/* .forgot {
     margin-left: 30px;
     margin: 10px 0;
 }
@@ -94,11 +94,11 @@ h3{
     border-radius: 8px;
 
     margin-top: 20px;
-}
+} */
 
 /* --- Bottom Register Text --- */
-.register {
+/* .register {
     text-align: center;
     width: 100%;
     margin-top: 20px;
-}
+} */ */
