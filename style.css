@@ -1,104 +1,28 @@
-/* --- Page Setup ---
-body {
-    background-color: #d0d0d0;
-    font-family: Arial, sans-serif;
-
-    /* Center the login card */
-    /* display: flex;
-    justify-content: center;
-    padding: 50px;
+* {
+    margin: 5;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-character {
+   background-color: cadetblue;
 }
 
-/* --- Login Card Box --- */
-/* .card {
-    width: 400px;
-    height: 400px;
-    background-color: white;    
-    padding: 20px 25px;
-
-    border: #666 2px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column; */ */
-
-    /* Text (Login, Get Started) should stay left */
-    align-items: flex-start;
-/* } */
-
-/* .card h1{ */
-    /* margin: 0;         removes default spacing */
-    /* padding: 0;                                                                                                                         */
-    /* font-family: Arial, Helvetica, sans-serif; */
-/* } */
-
-/* .card h4 { */
-    /* margin: 0;         removes default spacing */
-    /* padding: 0; */
-    /* font-family: Arial, Helvetica, sans-serif; */
-/* } */
-
-/* --- Input Field Section --- */
-/* .input-area {
-    width: 100%; */
-
-    /* Center the inputs horizontally */
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    margin-top: 40px;
-} */
-
-/* --- Input Styling --- */
-/* .rounded-input {
-    width: 80%;
-    padding: 14px;
-    margin-top: 10px;
-
-    border: 1px solid #d0d0d0;
-    border-radius: 5px;
-
-    font-size: 16px;
-    background-color: white;
+.logo {
+    color: red;
+    border-radius: 5px solid black;
 }
 
-.rounded-input::placeholder {
-    color: #999;
-} */
+nav ul, nav ul li  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: end;
+   padding: 2px 5px
+ }
 
-/* When user clicks in input */
-/* .rounded-input:focus {
-    border-color: #666;
-    box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
-    outline: none;
-} */
+ nav ul li {
+    list-style: none;
+ }
 
-/* --- Forgot Password --- */
-/* .forgot {
-    margin-left: 30px;
-    margin: 10px 0;
-}
-h3{
-    font: 0.7em sans-serif;
-}
-
-/* --- Button Styling --- */
-.btn {
-    width: 100%;
-    height: 50px;
-
-    background-color: blue;
-    color: white;
-
-    border: none;
-    border-radius: 8px;
-
-    margin-top: 20px;
-} */
-
-/* --- Bottom Register Text --- */
-/* .register {
-    text-align: center;
-    width: 100%;
-    margin-top: 20px;
-} */ */
+ s
