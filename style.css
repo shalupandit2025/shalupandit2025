@@ -1,89 +1,45 @@
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Header */
-header {
-   width: 100%;   
-   padding: 20px 40px;
-   background-color: crimson;
-}
-
-.main-character {
-   width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-   font-size: x-large;
-   padding: 10px;
-   color: white;
-}
-
-.logo span  {
-   color: black;
-}
-
-.Navbar ul {
-     list-style: none;
-     display: flex;
-     gap: 25px;
- }
-
-.Navbar ul li a{
-   text-decoration: none;
-   font-size: 18px;
-   color: black;
-   font-weight: 600;
-}
-
-.Navbar ul li a:hover {
-   color: chartreuse;
-   background: blue;
-   border-radius: 5px;
-   height: 10dvh;
-}
-.back-img {
-   background-image: url("image5/back.jpg");
-   /* width: 100%; */
+.img {
+   background-image: url(image5/front.jpg);
    height: 100vh;
+   width: 100%;
    background-position: center;
    background-size: cover;
-   position: relative;
    background-repeat: no-repeat;
 }
-
-.back-img::before{
-   content: '';
-   position: absolute;
-   height: 100%;
-   width: 100%;
+.img::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.Code {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 0 20px;
+    text-align: center;
 }
 
-.center{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50% , -50%);
-   padding: 0 20px;
-   text-align: center;
+.Code .h1 {
+ font-size: 10px;
+ font-weight: 300;
+ color: black;
 }
 
-.center .title {
-   font-size: 20px;
-   font-weight: 600;
-   color: black;
-   font-family: serif;
+.new-one {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    transform: translate(-50% , -50%);
+    padding: 0;
+    text-align: end;
 }
 
-.center .subtitle {
-   font-size: 24px;
-   font-weight: 600;
-   color: black;
-   font-family: serif;
+ .new-one 
+ .h4 {
+    font-size: 5px;
+    font-weight: 300;
+    color: red; 
+    
 }
