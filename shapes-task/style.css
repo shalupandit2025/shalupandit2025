@@ -1,0 +1,82 @@
+body {
+        font-family: Arial, sans-serif;
+        background: #fff;
+        padding: 40px;
+    }
+
+    .frame {
+        border: 4px solid black;
+        padding: 30px 20px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: nowrap;     
+        overflow-x: auto;      
+        white-space: nowrap;
+    }
+
+    .shape-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .shape {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    /* 1. Circle */
+    .circle {
+        background: red;
+        border-radius: 50%;
+    }
+
+    /* 2. Triangle */
+    .triangle {
+        width: 0;
+        height: 0;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+        border-bottom: 120px solid green;
+        position: relative;
+    }
+    .triangle span {
+        position: absolute;
+        top: 70px;
+        left: -30px;
+    }
+
+    /* 3. Pentagon */
+    .pentagon {
+        width: 120px;
+        background: blue;
+        clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    }
+
+    /* 4. Square */
+    .square {
+        background: orange;
+    }
+
+    /* 5. Rectangle */
+    .rectangle {
+        width: 160px;
+        height: 120px;
+        background: purple;
+    }
+
+    /* 6. Hexagon */
+    .hexagon {
+        width: 120px;
+        background: gold;
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 
+                           75% 100%, 25% 100%, 0% 50%);
+    }
