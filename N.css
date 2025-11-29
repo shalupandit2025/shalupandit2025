@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ 
+body {
+    background: rgb(176, 200, 207);
+}
+/* header  */
+header {
+    background-color: burlywood;
+}
+
+.data {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    margin: auto;
+} 
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    font-family: fantasy;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: brown;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.nav ul li a:hover {
+    color: black;
+    border-radius: 6px;
+    background: chartreuse;
+}
+
+/* hero section  */
+.hero {
+    margin: 20px;
+    font-size: 30px; 
+    font-family: serif;  
+}
+
+
+
+
