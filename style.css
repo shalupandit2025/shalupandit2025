@@ -20,9 +20,10 @@
     background: white;
 }
 
-.image img {
+.image{
     max-width: 300px;
     position: absolute;
-    margin-top: -35%;
+    margin-top: -50%;
     left: 35%;
+    font-size: 50px;
 }
