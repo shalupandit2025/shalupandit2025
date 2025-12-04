@@ -1,4 +1,4 @@
-.background-image {
+/* .background-image {
     background-image: url(image5/front.jpg);
     height: 100vh;
     width: 100%;
@@ -20,10 +20,9 @@
     background: white;
 }
 
-.image{
+.image img {
     max-width: 300px;
     position: absolute;
-    margin-top: -50%;
-    left: 35%;
-    font-size: 50px;
-}
+    margin-top: -30%;
+    left: 37%;
+} */
