@@ -7,11 +7,14 @@
 
 /* header */
 header {
-   width: 100%;   
-   height: 100%;
-   padding: 20px ;
-   background-color: white;
+    width: 100%;   
+    padding: 20px 50px ;
+    background-color: white; 
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
 }
+
 
 .code {
     display: flex;
@@ -19,34 +22,37 @@ header {
     font-size: 24px;
     font-family: sans-serif;
     gap: 20px;
+    
 }
 
+
+/* bell  */
 .bars {
-    display: inline-flex;
+    font-weight: 300;
+    color: blueviolet;
 }
+
+/* search box  */
 .text {
-    /* display: flex; */
-    /* border: 20px; */
-    /* max-width: 90%;
-    width: 420px;
+    font-size: 16px;
+    border-radius: 2px  solid white;
     align-items: center;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-    position: relative; */
-    /* overflow: hidden; */
-     /* border-radius: 20px ; */
-    /* margin: 0px; */
-     /* text-align: center; */
-     /* height: 20px; */
-     /* background-color: blue; */
-  flex: 1;
-  border: none;
-  background: transparent;
-  padding: 10px 12px;
-  font-size: 16px;
-  color: #111;
-  outline: none;
-  margin-left: 50px;
-  border-radius:30px;
+    border-radius: 10px;
+
+}
+
+/* bell icon  */
+.bell {
+   color: blueviolet;
+    margin-left: auto;
+}
+
+/* icon  */
+.user {
+        display: flex;
+        justify-content: space-between;
+           color: blueviolet;
+
 }
 
 body {
