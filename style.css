@@ -10,9 +10,12 @@ header {
     width: 100%;   
     padding: 10px  ;
     background-color: white; 
-    display: flex;
+    display: inline-flex;
     gap: 20px;
     align-items: baseline;
+    position: fixed;
+    z-index: 100;
+    /* height: 100vh; */
 }
 
 
@@ -21,24 +24,58 @@ header {
     color: green;
     font-size: 24px;
     font-family: sans-serif;
-    gap: 20px;
+    /* gap: 20px; */
     
 }
 
+.search-container {
+    /* width: 100px; */
+    position: relative; /* Essential for positioning the icon inside it */
+    display: flex;
+    align-items: center; /* Vertically center the input and icon */
+    width: 300px; /* Example width for the entire search box */
+    border: 1px solid #ccc; /* Add a border to the container, not the input */
+    border-radius: 20px;
+    overflow: hidden; /* Ensures icon background color doesn't bleed out of rounded corners */
+    justify-content: center;
+    text-align: center;
+}
+
+.search-input {
+    /* Remove default input styles like borders/background to be managed by the container */
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+     /* Important: Add padding so text doesn't overlap the icon */
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding/width calculation is correct */
+    outline: none; /* Removes the default blue/black outline when focused */
+    align-items: center;
+}
+
+.search-icon {
+    position: relative; /* Position the icon relative to the container */
+    right: 0 30px;         /* Place it on the right edge */
+    top:  0;
+    height: 100%;       /* Make icon height match the input height */
+    /* width: 20%; */
+    /* Styles for the icon's background color and appearance */
+    background-color: blueviolet; 
+    /* The desired background color for the icon's area */
+    /* color: #333;           Icon color */
+    padding: 10px 10px 10px 10px;      
+    /* Padding around the icon to give the background area width */
+    display: flex;         /* Use flexbox to perfectly center the icon within its own colored box */
+    /* align-items: center;
+    justify-content: center; */
+    /* cursor: pointer; */
+
+}
 
 /* bell  */
 .bars {
     font-weight: 300;
     color: blueviolet;
-}
-
-/* search box  */
-.text {
-    font-size: 16px;
-    border-radius: 2px  solid white;
-    align-items: center;
-    border-radius: 10px;
-
 }
 
 /* bell icon  */
@@ -51,33 +88,125 @@ header {
 .user {
         display: flex;
         justify-content: space-between;
-          color: blueviolet;
+         color: blueviolet;
 
 }
 
 body {
     background-color: rgb(198, 198, 242);
+    overflow: hidden;
+    height: 100%;
 }
 
+/* .mains_layout  */
+.main_layout {
+    margin-bottom: 20px;
+    gap: 50px;
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+/* Left Nav  */
+
+.nav {
+   background-color: white;
+   width: 15%;
+   gap: 20px;
+   padding: 10px;
+}
 
 .nav ul li  {
-    width: 15%;
-    top: 50%;
-    padding: 25px;
+    /* top: 50%; */
     list-style: none;
     text-decoration: none;
     font-size: 18px;
-    margin-left: 30px;
-    margin: 0 15px;
-    background-color: white;
-    height: 70px;
-    margin-top: 10px;
+    height: 70px; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
+
 
 .nav ul li a{
    color: black;
-   /* gap: 20px; */
+   display: flex;
+   align-items: center;
+   gap: 20px;
 }
-.nav ul li a:hover{
-    color: blue;
+
+.nav ul li:hover{
+   background-color: blueviolet;
+}
+/* Rigit Nav */
+.rectangle-container {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 20px; */
+    margin-bottom: -20px;
+    margin-left: -5%;
+    height: calc(100vh - 60px);
+    padding: 100px;
+    overflow-y: auto;
+    position: relative;
+    align-items: flex-start;
+    gap: 60px;
+
+}
+.shape1, .shape3{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(95, 40, 143);
+    color: #fff;
+    /* gap: 30px; */
+    display: inline-block;
+    padding: 10px 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 15px;
+    font-size: 40px;
+    flex-direction: column;
+}
+.top_view, .top_view3 {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    height: 10px;
+}
+
+.view1, .view3 {
+    font-size: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+
+}
+
+.shape2, .shape4{
+   width: 250px;
+    height: 100px;
+    background-color: rgb(150, 78, 213);
+    color: #fff;
+    /* gap: 30px; */
+    display: inline-block;
+    padding: 10px 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 15px;
+    font-size: 40px;
+    flex-direction: column;
+}
+
+.top_view2, .top_view4 {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    height: 10px;
+}
+
+.view2, .view4 {
+    font-size: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+
 }
