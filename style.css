@@ -379,11 +379,13 @@ body {
 
 .Admin {
     width: 100%;
-    line-height: var(-30px);
+    padding-bottom: 80px;
+    /* height: 80px; */
     background-color: blueviolet;
     border: 5px solid black;
     text-align: center;
     /* display: flex; */
     /* justify-content: center; */
     margin-top: 71px;
+    bottom: 60px;
 }
